@@ -1,4 +1,3 @@
-from django.conf import settings
 from django.conf.urls import url
 
 import aasemble.django.apps.mirrorsvc.views as views

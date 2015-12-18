@@ -1,10 +1,10 @@
 from django.contrib.auth import models as auth_models
-from django.core.urlresolvers import reverse
-from aasemble.django.tests import AasembleTestCase as TestCase
 
 import mock
 
-from .models import Mirror, MirrorSet, Snapshot, SnapshotFile, Tags
+from aasemble.django.tests import AasembleTestCase as TestCase
+
+from .models import Mirror, MirrorSet, Snapshot, Tags
 
 
 class SnapshotTestCase(TestCase):
